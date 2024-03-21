@@ -1,0 +1,517 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'gilroy extrabold';
+    box-sizing: border-box;
+}
+
+.main-div {
+    background-image: url(background_image.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+
+}
+
+.orange {
+    background-color: rgba(255, 85, 0, 0.864);
+    height: 49vw;
+    width: 50%;
+}
+
+.yellow {
+    /* background-color: rgba(242, 222, 0, 0.869); */
+    background: rgba(242, 222, 0, 0.869);
+    background: linear-gradient(0deg, rgba(255, 208, 0, 0.816) 0%, rgba(156, 130, 0, 0.801) 100%);
+    height: 24vw;
+    width: 50%;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 5vw;
+}
+
+.logo img {
+    height: 5vw;
+    width: 5vw;
+    margin-top: 3vw;
+}
+
+.text-one h1 {
+    margin-top: 0.5vw;
+    color: white;
+    font-size: 1.7vw;
+    margin-left: 2.2vw;
+}
+
+.text-one h2 {
+    color: white;
+    font-size: 1.3vw;
+    margin-left: 6vw;
+}
+
+.blue-line {
+    background-color: rgb(0, 208, 255);
+    height: 3.5vw;
+    width: 1vw;
+    margin-right: 37.5vw;
+}
+
+.header_content {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    line-height: 3.5vw;
+    /* margin-left: 20vh; */
+    margin-top: 5.5vw;
+}
+
+.hey-box {
+    border: 0.5vw solid white;
+    height: 7vw;
+    width: 9vw;
+    margin-top: 3vw;
+    margin-right: 30vw;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.hey-box h2 {
+    margin-top: 1.3vw;
+    color: white;
+    font-size: 3vw;
+    line-height: 3vw;
+    margin-left: 1vw;
+
+
+}
+
+.hey-box h3 {
+    color: white;
+    font-size: 1vw;
+    line-height: 1vw;
+    margin-left: 2.2vw;
+
+
+}
+
+.header_content h1 {
+    margin-top: 2.5vw;
+    color: white;
+    line-height: 4vw;
+    font-size: 4vw;
+
+}
+
+.heading1 {
+    margin-right: 10.5vw;
+}
+
+.heading2 {
+    margin-right: 24vw;
+}
+
+.heading3 {
+    margin-right: 22vw;
+}
+
+.heading4 {
+    margin-right: 25vw;
+}
+
+
+/* MIDDLE PART STYLING */
+
+.blue-box {}
+
+.black-box-1 {
+    margin-top: 1vw;
+    background-color: rgb(42, 42, 42);
+    height: 6.5vw;
+    width: 40vw;
+    margin-left: 5.5vw;
+
+}
+
+.black-box-1 h1 {
+    padding-top: 1.5vw;
+    color: white;
+    font-size: 3vw;
+    text-align: center;
+
+}
+
+.black-box-2 {
+    margin-top: 1vw;
+    background-color: rgb(42, 42, 42);
+    height: 6.5vw;
+    width: 20vw;
+    margin-left: 5.5vw;
+
+    /* padding: 1vh; */
+
+}
+
+.black-box-2 h1 {
+    padding-top: 1.5vw;
+    color: white;
+    font-size: 3vw;
+    text-align: center;
+
+}
+
+.middle-part-flex {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(0, 179, 167, 0.797);
+    height: 16vw;
+    width: 100%;
+
+}
+
+.content-box {
+    margin-top: 6vw;
+    margin-right: 1.5vw;
+    background-color: rgba(0, 0, 0, 0);
+    height: 10vw;
+    width: 50vw;
+}
+
+.content-box {
+    color: white;
+    font-size: 1.5vw;
+
+}
+
+.white_container {
+    background-color: white;
+    height: 10vw;
+    width: 100%;
+}
+
+
+.headline-part-one h1 {
+    margin-top: 5vw;
+    font-size: 4vw;
+    color: orangered;
+    margin-left: 5vw;
+}
+
+.headline-part-one p {
+    background-color: rgba(240, 248, 255, 0);
+    font-size: 1.1vw;
+    height: 10vw;
+    width: 80vw;
+    margin-left: 5vw;
+}
+
+.headline-part-two h1 {
+
+    font-size: 4vw;
+    color: rgba(0, 179, 167, 0.797);
+    margin-left: 5vw;
+}
+
+.headline-part-two p {
+    background-color: rgba(240, 248, 255, 0);
+    height: 10vw;
+    font-size: 1.1vw;
+    width: 40vw;
+    margin-left: 5vw;
+}
+
+.last-part {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.yellow-texts {
+    background-color: yellow;
+    height: 15.5vw;
+    width: 30vw;
+
+}
+
+.yellow-texts h4 {
+    margin-top: 2.8vw;
+    text-align: center;
+    color: black;
+    font-size: 1.3vw;
+    font-weight: 400;
+    line-height: 0.5vw;
+    font-family: "Spline Sans", sans-serif;
+
+}
+
+
+/* RESPONSIVE */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:600px) {
+
+    .main-div {
+        background-image: url(background_image.png);
+        height: 90vw;
+        width: 100vw;
+        background-repeat: no-repeat;
+        display: flex;
+
+    }
+
+    .orange {
+        background-color: rgba(255, 85, 0, 0.864);
+        height: 90vw;
+        width: 50%;
+    }
+
+    .yellow {
+        /* background-color: rgba(242, 222, 0, 0.869); */
+        background: rgba(242, 222, 0, 0.869);
+        background: linear-gradient(0deg, rgba(255, 208, 0, 0.816) 0%, rgba(156, 130, 0, 0.801) 100%);
+        height: 44vw;
+        width: 50%;
+    }
+
+    .logo {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-right: 6vw;
+
+    }
+
+    .logo img {
+        height: 9vw;
+        width: 9vw;
+        margin-top: 6vw;
+    }
+
+    .text-one h1 {
+        margin-top: 0.9vw;
+        color: white;
+        font-size: 3vw;
+        margin-left: 2.2vw;
+    }
+
+    .text-one h2 {
+        color: white;
+        font-size: 2vw;
+        margin-left: 10vw;
+    }
+
+    .blue-line {
+        margin-top: 5vw;
+        background-color: rgb(0, 208, 255);
+        height: 6vw;
+        width: 1.5vw;
+        margin-right: 41.5vw;
+    }
+
+    .header_content {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        line-height: 3.5vw;
+        /* margin-left: 20vh; */
+        margin-top: 22vw;
+    }
+
+    .hey-box {
+        border: 0.5vw solid white;
+        height: 9vw;
+        width: 12vw;
+        margin-top: 3vw;
+        margin-right: 31vw;
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .hey-box h2 {
+        margin-top: 1.9vw;
+        color: white;
+        font-size: 4vw;
+        line-height: 3vw;
+        margin-left: 1.5vw;
+
+
+    }
+
+    .hey-box h3 {
+        color: white;
+        font-size: 1.5vw;
+        line-height: 2vw;
+        margin-left: 2.8vw;
+
+    }
+
+    .header_content h1 {
+        margin-top: 2.5vw;
+        color: white;
+        line-height: 5vw;
+        font-size: 5.5vw;
+
+    }
+
+    .heading1 {
+        margin-right: 4vw;
+    }
+
+    .heading2 {
+        margin-right: 22vw;
+    }
+
+    .heading3 {
+        margin-right: 19.5vw;
+    }
+
+    .heading4 {
+        margin-right: 24vw;
+    }
+
+
+    /* MIDDLE PART STYLING */
+
+
+    .black-box-1 {
+        margin-top: 3vw;
+        background-color: rgb(42, 42, 42);
+        height: 10.5vw;
+        width: 59vw;
+        margin-left: 7vw;
+
+    }
+
+    .black-box-1 h1 {
+        padding-top: 2.5vw;
+        color: white;
+        font-size: 4.5vw;
+        text-align: center;
+
+    }
+
+    .black-box-2 {
+        margin-top: 4vw;
+        background-color: rgb(42, 42, 42);
+        height: 10.5vw;
+        width: 35vw;
+        margin-left: 7vw;
+
+
+    }
+
+    .black-box-2 h1 {
+        padding-top: 2.5vw;
+        color: white;
+        font-size: 4.5vw;
+        text-align: center;
+
+    }
+ 
+    .middle-part-flex {
+        display: flex;
+        /* justify-content: space-evenly; */
+        background-color: rgba(0, 179, 167, 0.797);
+        height: 35vw;
+        width: 100%;
+
+    }
+
+    .content-box {
+        margin-top: 17vw;
+        margin-right: 1vh;
+        background-color: rgba(0, 0, 0, 0);
+        height: 10vw;
+    
+    }
+
+    .content-box {
+        color: white;
+        font-size: 1.6vw;
+
+    }
+
+    .white_container {
+        background-color: white;
+        height: 10vw;
+        width: 100%;
+    }
+
+
+    .headline-part-one h1 {
+        margin-top: 5vw;
+        font-size: 7vw;
+        color: orangered;
+        margin-left: 7vw;
+    }
+
+    .headline-part-one p {
+        background-color: rgba(240, 248, 255, 0);
+        font-size: 2.1vw;
+        height: 10vw;
+        width: 80vw;
+        margin-left: 7vw;
+    }
+
+    .headline-part-two h1 {
+        margin-top: 7vw;
+        font-size: 7vw;
+        color: rgba(0, 179, 167, 0.797);
+        margin-left: 7vw;
+    }
+
+    .headline-part-two p {
+        background-color: rgba(240, 248, 255, 0);
+        height: 10vw;
+        font-size: 2.1vw;
+        width: 55vw;
+        margin-left: 7vw;
+    }
+
+    .last-part {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .yellow-texts {
+        margin-top: 16vw;
+        background-color: yellow;
+        height: 19.5vw;
+        width: 35vw;
+
+    }
+
+    .yellow-texts h4 {
+        margin-top: 3.7vw;
+        text-align: center;
+        color: black;
+        font-size: 1.9vw;
+        font-weight: 400;
+        line-height: 0.5vw;
+        font-family: "Spline Sans", sans-serif;
+
+    }
+
+
+}
